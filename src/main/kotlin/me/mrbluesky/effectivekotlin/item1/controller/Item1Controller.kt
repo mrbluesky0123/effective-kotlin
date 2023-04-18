@@ -2,11 +2,13 @@ package me.mrbluesky.effectivekotlin.item1.controller
 
 import me.mrbluesky.effectivekotlin.item1.*
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import kotlin.concurrent.thread
 import kotlin.properties.Delegates
 
 @RestController
+@RequestMapping("/item1")
 class Item1Controller {
 
     @GetMapping("/test")
