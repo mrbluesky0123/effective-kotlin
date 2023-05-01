@@ -27,6 +27,11 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("com.itextpdf:itext7-core:7.2.5")
+    implementation("org.apache.pdfbox:pdfbox-tools:2.0.25")
+    implementation("net.sf.cssbox:pdf2dom:2.0.1")
+
+
 }
 
 tasks.withType<KotlinCompile> {
